@@ -3,116 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo de Minecraft</title>
+    <title>Vídeo Incorporado</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #2e6f40;
-            color: white;
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav {
-            background-color: #1b4324;
             display: flex;
             justify-content: center;
-            padding: 0.5rem;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            margin: 0 0.5rem;
-            font-weight: bold;
-        }
-        nav a:hover {
-            background-color: #2e6f40;
-            border-radius: 4px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        section {
-            background: white;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
+        .video-container {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #2e6f40;
-            border-bottom: 2px solid #2e6f40;
-            padding-bottom: 0.3rem;
-        }
-        ul {
-            padding-left: 1.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #222;
-            color: white;
-            font-size: 0.9rem;
+            overflow: hidden;
+            background-color: #000;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Explorando o Universo de Minecraft</h1>
-        <p>O jogo de blocos que conquistou o mundo</p>
-    </header>
-
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#modos">Modos de Jogo</a>
-        <a href="#dimensoes">Dimensões</a>
-    </nav>
-
-    <div class="container">
-        
-        <section id="sobre">
-            <h2>O que é Minecraft?</h2>
-            <p>Minecraft é um jogo de "sandbox" (mundo aberto) feito de blocos, onde a criatividade é o único limite. Desenvolvido inicialmente por Markus "Notch" Persson e posteriormente pela Mojang Studios, o jogo permite que os jogadores explorem um mundo infinito gerado proceduralmente, minerem recursos, construam estruturas e enfrentem criaturas.</p>
-        </section>
-
-        <section id="modos">
-            <h2>Principais Modos de Jogo</h2>
-            <ul>
-                <li><strong>Sobrevivência (Survival):</strong> O jogador precisa coletar recursos naturais, gerenciar sua barra de fome e vida, e se defender de monstros que surgem à noite.</li>
-                <li><strong>Criativo (Creative):</strong> Recursos ilimitados, habilidade de voar e destruição instantânea de blocos. Ideal para quem quer focar apenas em grandes construções.</li>
-                <li><strong>Aventura (Adventure):</strong> Focado em mapas personalizados criados por outros jogadores, onde o uso de ferramentas específicas é obrigatório para interagir com o cenário.</li>
-            </ul>
-        </section>
-
-        <section id="dimensoes">
-            <h2>As Dimensões do Jogo</h2>
-            <p>O universo de Minecraft é dividido em três dimensões principais:</p>
-            <ol>
-                <li><strong>Overworld (Mundo Normal):</strong> Onde o jogador inicia a jornada, repleto de biomas, florestas, oceanos e vilas.</li>
-                <li><strong>Nether:</strong> Uma dimensão infernal acessada por um portal de obsidiana, cheia de lava, perigos e materiais exclusivos como a netherita.</li>
-                <li><strong>The End:</strong> O lar do temido Ender Dragon e das cidades do fim, representando o "desafio final" do progresso principal do jogo.</li>
-            </ol>
-        </section>
-
+    <div class="video-container">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/JNDvod0tBr0?si=UD8X-OzVvaeCuwmC" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
     </div>
-
-    <footer>
-        <p>&copy; 2026 - Página de Fã de Minecraft. Criado para fins demonstrativos.</p>
-    </footer>
 
 </body>
 </html>
