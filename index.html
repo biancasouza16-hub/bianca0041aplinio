@@ -3,39 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vídeo Incorporado</title>
+    <title>Mundo Minecraft</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #4a3b32; /* Marrom terra */
+            color: #ffffff;
             margin: 0;
+            padding: 0;
         }
-        .video-container {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        header {
+            background-color: #5c8e32; /* Verde grama */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #3b5c20;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px #000;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #2e241f; /* Marrom escuro */
             border-radius: 8px;
-            overflow: hidden;
-            background-color: #000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        h2 {
+            color: #85c444;
+            border-bottom: 2px solid #5c8e32;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background-color: #3d3028;
+            padding: 15px;
+            border-radius: 5px;
+            flex: 1;
+            border-left: 5px solid #5c8e32;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #aaaaaa;
         }
     </style>
 </head>
 <body>
 
-    <div class="video-container">
-        <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/JNDvod0tBr0?si=UD8X-OzVvaeCuwmC" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-        </iframe>
-    </div>
+    <header>
+        <h1>Bem-vindo ao Mundo de Minecraft</h1>
+    </header>
+
+    <main>
+        <h2>O que é Minecraft?</h2>
+        <p>Minecraft é um jogo de sobrevivência e construção do tipo <em>sandbox</em> (mundo aberto), onde os jogadores podem explorar um mundo infinito feito de blocos, minerar recursos, criar ferramentas e construir praticamente qualquer coisa que a imaginação permitir.</p>
+
+        <h2>Modos de Jogo Principais</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Sobrevivência (Survival)</h3>
+                <p>O jogador precisa coletar recursos naturais, gerenciar sua barra de fome e vida, e se defender de criaturas (mobs) que aparecem à noite.</p>
+            </div>
+            <div class="card">
+                <h3>Criativo (Creative)</h3>
+                <p>Recursos infinitos, capacidade de voar e nenhum perigo. Perfeito para quem quer focar apenas em grandes construções e arquitetura.</p>
+            </div>
+        </div>
+
+        <h2>Elementos Icônicos</h2>
+        <ul>
+            <li><strong>Creeper:</strong> A famosa criatura verde que explode quando chega perto do jogador.</li>
+            <li><strong>Crafting Table:</strong> A bancada de trabalho essencial para criar a maioria dos itens do jogo.</li>
+            <li><strong>The Nether:</strong> Uma dimensão paralela perigosa, cheia de lava e recursos únicos.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>Página criada para fãs de Minecraft &copy; 2026</p>
+    </footer>
 
 </body>
 </html>
