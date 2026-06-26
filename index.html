@@ -43,6 +43,7 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            margin-bottom: 30px;
         }
         th, td {
             border: 1px solid #555;
@@ -55,6 +56,15 @@
         }
         tr:nth-child(even) {
             background-color: #44474a;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            border: 3px solid #4a7227;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
         footer {
             text-align: center;
@@ -73,6 +83,11 @@
     <main>
         <h2>O que é Minecraft?</h2>
         <p><strong>Minecraft</strong> é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus "Notch" Persson e posteriormente desenvolvido e publicado pela Mojang Studios. No jogo, os jogadores exploram um mundo aberto tridimensional pixelizado, podendo descobrir e extrair matérias-primas, ferramentas artesanais e construir estruturas ou fortificações.</p>
+
+        <h2>Vídeo Destacado</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JNDvod0tBr0?si=x0qed0mU1UBjwHK3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
         <h2>Modos de Jogo Principais</h2>
         <ul>
