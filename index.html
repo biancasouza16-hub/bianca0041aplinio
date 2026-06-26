@@ -3,94 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo Minecraft</title>
+    <title>Mundo de Minecraft</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #4a3b32; /* Marrom terra */
-            color: #ffffff;
+            background-color: #2e3033;
+            color: #f5f5f5;
+            line-height: 1.6;
             margin: 0;
-            padding: 0;
+            padding: 20px;
         }
         header {
-            background-color: #5c8e32; /* Verde grama */
+            background-color: #4a7227;
             padding: 20px;
             text-align: center;
-            border-bottom: 5px solid #3b5c20;
+            border-bottom: 5px solid #3b591f;
         }
-        header h1 {
+        h1 {
             margin: 0;
-            font-size: 2.5rem;
-            text-shadow: 2px 2px #000;
+            color: #ffffff;
         }
         main {
             max-width: 800px;
             margin: 20px auto;
+            background-color: #3c3f41;
             padding: 20px;
-            background-color: #2e241f; /* Marrom escuro */
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         }
         h2 {
-            color: #85c444;
-            border-bottom: 2px solid #5c8e32;
+            color: #a2d242;
+            border-bottom: 2px solid #4a7227;
             padding-bottom: 5px;
         }
         ul {
-            list-style-type: square;
+            padding-left: 20px;
         }
-        .card-container {
-            display: flex;
-            gap: 20px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
             margin-top: 20px;
         }
-        .card {
-            background-color: #3d3028;
-            padding: 15px;
-            border-radius: 5px;
-            flex: 1;
-            border-left: 5px solid #5c8e32;
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4a7227;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #44474a;
         }
         footer {
             text-align: center;
-            padding: 20px;
-            font-size: 0.9rem;
-            color: #aaaaaa;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Bem-vindo ao Mundo de Minecraft</h1>
+        <h1>Explorando o Universo de Minecraft</h1>
     </header>
 
     <main>
         <h2>O que é Minecraft?</h2>
-        <p>Minecraft é um jogo de sobrevivência e construção do tipo <em>sandbox</em> (mundo aberto), onde os jogadores podem explorar um mundo infinito feito de blocos, minerar recursos, criar ferramentas e construir praticamente qualquer coisa que a imaginação permitir.</p>
+        <p><strong>Minecraft</strong> é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus "Notch" Persson e posteriormente desenvolvido e publicado pela Mojang Studios. No jogo, os jogadores exploram um mundo aberto tridimensional pixelizado, podendo descobrir e extrair matérias-primas, ferramentas artesanais e construir estruturas ou fortificações.</p>
 
         <h2>Modos de Jogo Principais</h2>
-        <div class="card-container">
-            <div class="card">
-                <h3>Sobrevivência (Survival)</h3>
-                <p>O jogador precisa coletar recursos naturais, gerenciar sua barra de fome e vida, e se defender de criaturas (mobs) que aparecem à noite.</p>
-            </div>
-            <div class="card">
-                <h3>Criativo (Creative)</h3>
-                <p>Recursos infinitos, capacidade de voar e nenhum perigo. Perfeito para quem quer focar apenas em grandes construções e arquitetura.</p>
-            </div>
-        </div>
-
-        <h2>Elementos Icônicos</h2>
         <ul>
-            <li><strong>Creeper:</strong> A famosa criatura verde que explode quando chega perto do jogador.</li>
-            <li><strong>Crafting Table:</strong> A bancada de trabalho essencial para criar a maioria dos itens do jogo.</li>
-            <li><strong>The Nether:</strong> Uma dimensão paralela perigosa, cheia de lava e recursos únicos.</li>
+            <li><strong>Sobrevivência (Survival):</strong> O jogador deve coletar seus próprios recursos e comida, lidando com criaturas hostis que surgem à noite.</li>
+            <li><strong>Criativo (Creative):</strong> Recursos ilimitados, capacidade de voar e nenhum perigo de morte, ideal para construções grandiosas.</li>
+            <li><strong>Aventura (Adventure):</strong> Focado em mapas personalizados criados por outros jogadores, com restrições de quebra de blocos.</li>
         </ul>
+
+        <h2>As Dimensões do Jogo</h2>
+        <p>O universo de Minecraft é dividido em três dimensões distintas que o jogador pode explorar:</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Dimensão</th>
+                    <th>Descrição</th>
+                    <th>Inimigo Principal / Chefe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Overworld (Mundo Normal)</td>
+                    <td>Onde o jogador começa, repleto de biomas, florestas, vilas e oceanos.</td>
+                    <td>Creeper, Zumbi, Esqueleto</td>
+                </tr>
+                <tr>
+                    <td>The Nether (Submundo)</td>
+                    <td>Uma dimensão infernal cheia de lava, perigos e materiais valiosos como a Netherite.</td>
+                    <td>Wither (Invocado)</td>
+                </tr>
+                <tr>
+                    <td>The End (Fim)</td>
+                    <td>Uma dimensão vazia composta por ilhas flutuantes feitas de pedra do fim.</td>
+                    <td>Ender Dragon</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer>
-        <p>Página criada para fãs de Minecraft &copy; 2026</p>
+        <p>&copy; 2026 - Página criada para fãs de Minecraft.</p>
     </footer>
 
 </body>
